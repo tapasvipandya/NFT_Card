@@ -20,91 +20,95 @@ body {
 }
 
 .title-section {
-    font-family: 'Outfit',sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    color: hsl(0, 0%, 100%);
-    margin-left: 24px;
-    line-height: 28px;
-    width: 302px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: hsl(0, 0%, 100%);
+  margin-left: 24px;
+  line-height: 28px;
+  width: 302px;
 }
 
-.desc-section{
-    margin-left: 24px;
-    margin-top: 16px;
-    width: 302px;
-    font-family: 'Outfit',sans-serif;
-    font-weight: 300;
-    color: hsl(215, 51%, 70%);
+.title-section:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
 
-.price-time-section{
-    display: flex;
-    width: 301px;
-    margin-left: 24px;
-    margin-top: 24px;
-    justify-content: space-between;
+.desc-section {
+  margin-left: 24px;
+  margin-top: 16px;
+  width: 302px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
 }
 
-.price-section,.time-section{
+.price-time-section {
   display: flex;
-  
+  width: 301px;
+  margin-left: 24px;
+  margin-top: 24px;
+  justify-content: space-between;
 }
 
-.price-section .price-image-section img{
-    width: 11px;
-  
+.price-section,
+.time-section {
+  display: flex;
 }
 
-.price-section .price-text-section{
+.price-section .price-image-section img {
+  width: 11px;
+}
+
+.price-section .price-text-section {
   padding-left: 10px;
-  font-family: 'Outfit',sans-serif;
+  font-family: "Outfit", sans-serif;
   font-weight: 600;
   color: hsl(178, 100%, 50%);
 }
 
-.time-section .time-image-section img{
-    width: 18px;
+.time-section .time-image-section img {
+  width: 18px;
 }
 
-.time-section .time-text-section{
+.time-section .time-text-section {
   padding-left: 7px;
-  font-family: 'Outfit',sans-serif;
+  font-family: "Outfit", sans-serif;
   font-weight: 400;
   color: hsl(215, 51%, 70%);
-  
 }
 
-.line-component{
+.line-component {
   background: hsl(215, 32%, 27%);
-  height:1px;
+  height: 1px;
   margin-top: 24px;
   width: 302px;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-
-
-.owner-image-description{
-    display: flex;
-    justify-content: space-between;
-    width: 230px;
-    margin-left: 24px;
-    margin-top: 16px;
+.owner-image-description {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+  margin-left: 24px;
+  margin-top: 16px;
 }
 
-.owner-description{
+.owner-description {
   color: hsl(0, 0%, 100%);
-  font-family: 'Outfit',sans-serif;
+  font-family: "Outfit", sans-serif;
   font-weight: 400;
   margin-top: 7px;
-
 }
 
-span{
+.owner-description:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+span {
   color: hsl(215, 51%, 70%);
 }
 
@@ -113,11 +117,6 @@ span{
   border-radius: 8px;
 }
 
-
-
-
 .owner-image-description .owner-image img {
   width: 33px;
 }
-
-
