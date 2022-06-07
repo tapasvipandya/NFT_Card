@@ -18,6 +18,38 @@ body {
   display: inline-block;
   margin: 24px 24px;
   height: 302px;
+  
+}
+
+.img-container img {
+  width: 302px;
+  border-radius: 8px;
+}
+
+
+.active-container{
+  position: absolute;
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+  background-image: url(images/icon-view.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: none;
+  }
+
+
+.active-container img{
+  width: 48px;
+  margin-left: 128px;
+  margin-top: 129px;
+
+}
+
+.img-container:hover > .active-container{
+  display: block;
+  cursor: pointer;
+  background-color: rgba(0, 255, 247, 0.5);
 }
 
 .title-section {
@@ -113,10 +145,7 @@ span {
   color: hsl(215, 51%, 70%);
 }
 
-.img-container img {
-  width: 302px;
-  border-radius: 8px;
-}
+
 
 .owner-image-description .owner-image img {
   width: 33px;
