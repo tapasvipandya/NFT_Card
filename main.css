@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
 body {
-  background: #fff;
+  background: hsl(217, 54%, 11%);
   box-sizing: border-box;
 }
 
@@ -9,7 +9,7 @@ body {
   margin: 152px auto;
   width: 350px;
   height: 596px;
-  background: aliceblue;
+  background: hsl(216, 50%, 16%);
   box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
   border-radius: 15px;
 }
@@ -45,16 +45,26 @@ body {
     justify-content: space-between;
 }
 
-
-
-.price-section img{
-    width: 11px;
-    vertical-align: middle;
+.price-section,.time-section{
+  display: flex;
+  
 }
 
-.time-section img{
-    width: 16px;
-    vertical-align: middle;
+.price-section .price-image-section img{
+    width: 11px;
+  
+}
+
+.price-section .price-text-section{
+  padding-left: 10px;
+}
+
+.time-section .time-image-section img{
+    width: 18px;
+}
+
+.time-section .time-text-section{
+  padding-left: 7px;
 }
 
 
