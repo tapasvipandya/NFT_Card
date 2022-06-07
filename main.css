@@ -17,6 +17,7 @@ body {
 .img-container {
   display: inline-block;
   margin: 24px 24px;
+  height: 302px;
 }
 
 .title-section {
@@ -27,7 +28,7 @@ body {
   color: hsl(0, 0%, 100%);
   margin-left: 24px;
   line-height: 28px;
-  width: 302px;
+  width: 181px;
 }
 
 .title-section:hover {
